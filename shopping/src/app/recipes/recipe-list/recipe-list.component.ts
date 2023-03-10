@@ -9,7 +9,10 @@ import { Recipe } from '../recipe.model'
 export class RecipeListComponent {
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', 'This is simply a test', 'https://getsmartratsolutions.com/wp-content/uploads/2021/11/thanksgiving-recipe-ideas.jpg'
+    ),
 
+
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://getsmartratsolutions.com/wp-content/uploads/2021/11/thanksgiving-recipe-ideas.jpg'
     )
   ];
 
